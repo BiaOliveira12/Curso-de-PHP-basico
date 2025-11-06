@@ -1,30 +1,31 @@
 Maior $a > $b
-        Menor $a < $b
 
-        Maior ou igual $a >= $b
+Menor $a < $b
 
-        Menor ou igual $a <= $b
+Maior ou igual $a >= $b
 
-        Diferente $a <> $b ou $a != $b
+Menor ou igual $a <= $b
 
-        Igual $a == $b
+Diferente $a <> $b ou $a != $b
 
-        Idêntico $a === $b -> igual e do mesmo tipo
+Igual $a == $b
 
-        Operador Unário
+Idêntico $a === $b -> igual e do mesmo tipo
 
-        (expressão) ? (verdadeiro) : (falso)
+Operador Unário
 
-        $maior = $a > $b ? $a : $b
+(expressão) ? (verdadeiro) : (falso)
 
-        ou 
+/* $maior = $a > $b ? $a : $b
 
-        Se (a > b) então 
-            maior <- a
-        senão
-            maior <- b
-        FimSe
+ou 
 
-        $r = $a > $b ? $a + $b : $a - $b
+Se (a > b) então 
+        maior <- a
+senão
+        maior <- b
+FimSe */
 
-        $sit = $media < 7 ? "recuperação" : "aprovado"
+$r = $a > $b ? $a + $b : $a - $b
+
+$sit = $media < 7 ? "recuperação" : "aprovado"
